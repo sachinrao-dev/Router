@@ -11,13 +11,10 @@ function App() {
       <li><Link to="/books">Books</Link></li>
       <li><Link to="/books">Books</Link></li>
       <li><Link to="/books/new">New Books</Link></li>
-
       </nav>
       <Routes>
         <Route path="/" element= {<Home />}/>
         <Route path="/books/*" element= {<BookRoute />}>
-          
-
         </Route>
         {/* <Route path="/books" element= {<BookList />}/>
         <Route path="/books/:id" element= {<Book />}/>

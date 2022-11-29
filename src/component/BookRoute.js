@@ -11,7 +11,7 @@ function BookRoute() {
         <Routes>
             <Route index element = {<BookList/>}/>
           <Route path=":id" element = {<Book/>}/>
-          <Route path="new" element = {<NewBook/>}/>
+          <Route path="/new" element = {<NewBook/>}/>
         </Routes>
         </>
     )
